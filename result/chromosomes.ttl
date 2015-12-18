@@ -1,0 +1,79 @@
+@prefix chr: <http://dbtss.hgc.jp/rdf/chromosome/9606/GRCh38#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix so: <http://purl.obolibrary.org/obo/> .
+
+chr:1 a so:SO0000957;
+   rdfs:label "Chromosome 1" .
+
+chr:10 a so:SO0000957;
+   rdfs:label "Chromosome 10" .
+
+chr:11 a so:SO0000957;
+   rdfs:label "Chromosome 11" .
+
+chr:12 a so:SO0000957;
+   rdfs:label "Chromosome 12" .
+
+chr:13 a so:SO0000957;
+   rdfs:label "Chromosome 13" .
+
+chr:14 a so:SO0000957;
+   rdfs:label "Chromosome 14" .
+
+chr:15 a so:SO0000957;
+   rdfs:label "Chromosome 15" .
+
+chr:16 a so:SO0000957;
+   rdfs:label "Chromosome 16" .
+
+chr:17 a so:SO0000957;
+   rdfs:label "Chromosome 17" .
+
+chr:18 a so:SO0000957;
+   rdfs:label "Chromosome 18" .
+
+chr:19 a so:SO0000957;
+   rdfs:label "Chromosome 19" .
+
+chr:2 a so:SO0000957;
+   rdfs:label "Chromosome 2" .
+
+chr:20 a so:SO0000957;
+   rdfs:label "Chromosome 20" .
+
+chr:21 a so:SO0000957;
+   rdfs:label "Chromosome 21" .
+
+chr:22 a so:SO0000957;
+   rdfs:label "Chromosome 22" .
+
+chr:3 a so:SO0000957;
+   rdfs:label "Chromosome 3" .
+
+chr:4 a so:SO0000957;
+   rdfs:label "Chromosome 4" .
+
+chr:5 a so:SO0000957;
+   rdfs:label "Chromosome 5" .
+
+chr:6 a so:SO0000957;
+   rdfs:label "Chromosome 6" .
+
+chr:7 a so:SO0000957;
+   rdfs:label "Chromosome 7" .
+
+chr:8 a so:SO0000957;
+   rdfs:label "Chromosome 8" .
+
+chr:9 a so:SO0000957;
+   rdfs:label "Chromosome 9" .
+
+chr:M a so:SO0000819;
+   rdfs:label "Mitochondrial Chromosome" .
+
+chr:X a so:SO0000957;
+   rdfs:label "Chromosome X" .
+
+chr:Y a so:SO0000957;
+   rdfs:label "Chromosome Y" .
