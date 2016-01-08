@@ -52,6 +52,7 @@ xlsx.each do |sheet|
     g = RDF::Graph.new
     
     # create blank node
+    id          = RDF::Node.new
     region      = RDF::Node.new
     b_node      = RDF::Node.new
     e_node      = RDF::Node.new
@@ -70,7 +71,7 @@ xlsx.each do |sheet|
     up_e   = 0
     
     # main section
-    id    = RDF::URI("http://dbtss.hgc.jp/rdf/BSseq/#{sample}_#{sheet[0].to_i}")
+    #id    = RDF::URI("http://dbtss.hgc.jp/rdf/BSseq/#{sample}_#{sheet[0].to_i}")
     chrom = RDF::URI("http://dbtss.hgc.jp/rdf/chromosome/9606/GRCh38##{sheet[2].delete("chr")}")
     
     g << [RDF::URI("http://dbtss.hgc.jp/rdf/BSseqFile/#{filename}"), kero.hasGene, id]
