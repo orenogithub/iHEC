@@ -1,0 +1,1917 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix kero: <http://dbtss.hgc.jp/kero.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/TR/rdf-schema/#> .
+@prefix so: <http://purl.obolibrary.org/obo/> .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_1> a so:SO0001697;
+   kero:absSummit 714486;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.811337e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 713096;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 715428;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 2333;
+   kero:pileup 1.8e2;
+   kero:pvalue 2.2930132e2;
+   kero:qvalue 2.2655865e2;
+   rdfs:label "A549H3K4me3_peak_1" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_10> a so:SO0001697;
+   kero:absSummit 895863;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.27671e0;
+   kero:fwdGene "KLHL17",
+     "PLEKHN1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 895666;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 895978;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 313;
+   kero:pileup 1.6e1;
+   kero:pvalue 5.68255e0;
+   kero:qvalue 3.57674e0;
+   kero:revGene "NOC2L";
+   rdfs:label "A549H3K4me3_peak_10" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_11> a so:SO0001697;
+   kero:absSummit 896374;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 5.66481e0;
+   kero:fwdGene "KLHL17",
+     "PLEKHN1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 896218;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 896550;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 333;
+   kero:pileup 1.9e1;
+   kero:pvalue 1.136537e1;
+   kero:qvalue 9.199490000000001e0;
+   kero:revGene "NOC2L";
+   rdfs:label "A549H3K4me3_peak_11" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_12> a so:SO0001697;
+   kero:absSummit 902185;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.471544e1;
+   kero:fwdGene "KLHL17",
+     "PLEKHN1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 901790;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 902486;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 697;
+   kero:pileup 9.9e1;
+   kero:pvalue 1.1090584e2;
+   kero:qvalue 1.0839925e2;
+   kero:revGene "NOC2L";
+   rdfs:label "A549H3K4me3_peak_12" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_13> a so:SO0001697;
+   kero:absSummit 911797;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 5.01144e0;
+   kero:fwdGene "PLEKHN1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 911611;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 912041;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 431;
+   kero:pileup 2.5e1;
+   kero:pvalue 1.217928e1;
+   kero:qvalue 1.00062e1;
+   kero:revGene "PERM1";
+   rdfs:label "A549H3K4me3_peak_13" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_14> a so:SO0001697;
+   kero:absSummit 935061;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.305801e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 934775;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 935338;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 564;
+   kero:pileup 8.0e1;
+   kero:pvalue 8.942713000000001e1;
+   kero:qvalue 8.697001e1;
+   kero:revGene "HES4";
+   rdfs:label "A549H3K4me3_peak_14" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_15> a so:SO0001697;
+   kero:absSummit 936612;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.960782e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 935776;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 937405;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1630;
+   kero:pileup 1.5e2;
+   kero:pvalue 1.4307932e2;
+   kero:qvalue 1.4050423e2;
+   kero:revGene "HES4";
+   rdfs:label "A549H3K4me3_peak_15" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_16> a so:SO0001697;
+   kero:absSummit 948661;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 5.64244e0;
+   kero:fwdGene "AGRN",
+     "ISG15";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 948431;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 948884;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 454;
+   kero:pileup 3.3e1;
+   kero:pvalue 1.674498e1;
+   kero:qvalue 1.453969e1;
+   rdfs:label "A549H3K4me3_peak_16" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_17> a so:SO0001697;
+   kero:absSummit 956510;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.162599e1;
+   kero:fwdGene "AGRN",
+     "ISG15";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 955515;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 957261;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1747;
+   kero:pileup 2.38e2;
+   kero:pvalue 2.3104256e2;
+   kero:qvalue 2.2829669e2;
+   rdfs:label "A549H3K4me3_peak_17" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_18> a so:SO0001697;
+   kero:absSummit 995348;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.310193e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 995118;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 995611;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 494;
+   kero:pileup 5.6e1;
+   kero:pvalue 4.810575e1;
+   kero:qvalue 4.576374e1;
+   rdfs:label "A549H3K4me3_peak_18" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_19> a so:SO0001697;
+   kero:absSummit 1004584;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 8.26885e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1004393;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1004979;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 587;
+   kero:pileup 2.8e1;
+   kero:pvalue 2.042143e1;
+   kero:qvalue 1.819385e1;
+   kero:revGene "RNF223";
+   rdfs:label "A549H3K4me3_peak_19" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_2> a so:SO0001697;
+   kero:absSummit 762473;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.658768e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 761844;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 762986;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1143;
+   kero:pileup 1.22e2;
+   kero:pvalue 1.7935924e2;
+   kero:qvalue 1.7671204e2;
+   rdfs:label "A549H3K4me3_peak_2" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_20> a so:SO0001697;
+   kero:absSummit 1050689;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 6.89575e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1050551;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1050895;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 345;
+   kero:pileup 2.9e1;
+   kero:pvalue 1.807598e1;
+   kero:qvalue 1.586243e1;
+   kero:revGene "C1orf159";
+   rdfs:label "A549H3K4me3_peak_20" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_21> a so:SO0001697;
+   kero:absSummit 1051360;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.126306e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1051117;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1051598;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 482;
+   kero:pileup 4.8e1;
+   kero:pvalue 3.847873e1;
+   kero:qvalue 3.617045e1;
+   kero:revGene "C1orf159";
+   rdfs:label "A549H3K4me3_peak_21" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_22> a so:SO0001697;
+   kero:absSummit 1052199;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 7.35547e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1052046;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1052339;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 294;
+   kero:pileup 3.1e1;
+   kero:pvalue 2.002541e1;
+   kero:qvalue 1.780053e1;
+   kero:revGene "C1orf159";
+   rdfs:label "A549H3K4me3_peak_22" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_23> a so:SO0001697;
+   kero:absSummit 1093157;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.4332e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1093017;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1093341;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 325;
+   kero:pileup 2.2e1;
+   kero:pvalue 9.842370000000001e0;
+   kero:qvalue 7.68909e0;
+   rdfs:label "A549H3K4me3_peak_23" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_24> a so:SO0001697;
+   kero:absSummit 1166867;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 5.310535e1;
+   kero:fwdGene "B3GALT6";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1166100;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1167408;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1309;
+   kero:pileup 3.19e2;
+   kero:pvalue 4.4211685e2;
+   kero:qvalue 4.3891779e2;
+   kero:revGene "SDF4";
+   rdfs:label "A549H3K4me3_peak_24" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_25> a so:SO0001697;
+   kero:absSummit 1208588;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 9.963338e1;
+   kero:fwdGene "SCNN1D";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1207869;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1210179;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 2311;
+   kero:pileup 3.49e2;
+   kero:pvalue 6.0112012e2;
+   kero:qvalue 5.9735205e2;
+   kero:revGene "UBE2J2";
+   rdfs:label "A549H3K4me3_peak_25" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_26> a so:SO0001697;
+   kero:absSummit 1242727;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.447895e1;
+   kero:fwdGene "PUSL1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1242109;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1243055;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 947;
+   kero:pileup 1.26e2;
+   kero:pvalue 1.362868e2;
+   kero:qvalue 1.3372554e2;
+   kero:revGene "ACAP3";
+   rdfs:label "A549H3K4me3_peak_26" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_27> a so:SO0001697;
+   kero:absSummit 1244249;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.17951e1;
+   kero:fwdGene "PUSL1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1243476;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1244852;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1377;
+   kero:pileup 4.7e1;
+   kero:pvalue 3.901977e1;
+   kero:qvalue 3.671e1;
+   kero:revGene "ACAP3";
+   rdfs:label "A549H3K4me3_peak_27" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_28> a so:SO0001697;
+   kero:absSummit 1259733;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.455535e1;
+   kero:fwdGene "CPTP",
+     "TAS1R3";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1259432;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1260147;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 716;
+   kero:pileup 1.21e2;
+   kero:pvalue 1.5489194e2;
+   kero:qvalue 1.5229283e2;
+   kero:revGene "CPSF3L";
+   rdfs:label "A549H3K4me3_peak_28" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_29> a so:SO0001697;
+   kero:absSummit 1260590;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.19961e1;
+   kero:fwdGene "CPTP",
+     "TAS1R3";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1260210;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1261061;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 852;
+   kero:pileup 1.65e2;
+   kero:pvalue 1.965069e2;
+   kero:qvalue 1.9382692e2;
+   kero:revGene "CPSF3L";
+   rdfs:label "A549H3K4me3_peak_29" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_3> a so:SO0001697;
+   kero:absSummit 839477;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 7.97067e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 839277;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 839650;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 374;
+   kero:pileup 2.7e1;
+   kero:pvalue 1.933143e1;
+   kero:qvalue 1.710992e1;
+   rdfs:label "A549H3K4me3_peak_3" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_30> a so:SO0001697;
+   kero:absSummit 1283824;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.353808e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1282715;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1284564;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1850;
+   kero:pileup 1.73e2;
+   kero:pvalue 2.0938474e2;
+   kero:qvalue 2.0667969e2;
+   kero:revGene "DVL1";
+   rdfs:label "A549H3K4me3_peak_30" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_31> a so:SO0001697;
+   kero:absSummit 1285352;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 9.329800000000001e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1285150;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1285529;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 380;
+   kero:pileup 3.5e1;
+   kero:pvalue 2.635563e1;
+   kero:qvalue 2.409835e1;
+   kero:revGene "DVL1";
+   rdfs:label "A549H3K4me3_peak_31" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_32> a so:SO0001697;
+   kero:absSummit 1310173;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 9.263292e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1309373;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1310740;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1368;
+   kero:pileup 4.02e2;
+   kero:pvalue 6.6645111e2;
+   kero:qvalue 6.6231183e2;
+   kero:revGene "AURKAIP1";
+   rdfs:label "A549H3K4me3_peak_32" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_33> a so:SO0001697;
+   kero:absSummit 1311208;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.499679e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1310813;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1311697;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 885;
+   kero:pileup 1.98e2;
+   kero:pvalue 2.4112675e2;
+   kero:qvalue 2.3836186e2;
+   kero:revGene "AURKAIP1";
+   rdfs:label "A549H3K4me3_peak_33" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_34> a so:SO0001697;
+   kero:absSummit 1335233;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.532339e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1333549;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1335991;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 2443;
+   kero:pileup 3.86e2;
+   kero:pvalue 4.9881836e2;
+   kero:qvalue 4.9545569e2;
+   kero:revGene "CCNL2",
+     "MRPL20";
+   rdfs:label "A549H3K4me3_peak_34" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_35> a so:SO0001697;
+   kero:absSummit 1342214;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 6.032109e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1341507;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1343854;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 2348;
+   kero:pileup 3.42e2;
+   kero:pvalue 4.9424628e2;
+   kero:qvalue 4.9089822e2;
+   kero:revGene "CCNL2",
+     "MRPL20";
+   rdfs:label "A549H3K4me3_peak_35" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_36> a so:SO0001697;
+   kero:absSummit 1371554;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 5.58968e0;
+   kero:fwdGene "VWA1",
+     "TMEM88B";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1371363;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1371744;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 382;
+   kero:pileup 2.8e1;
+   kero:pvalue 1.466189e1;
+   kero:qvalue 1.247028e1;
+   rdfs:label "A549H3K4me3_peak_36" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_37> a so:SO0001697;
+   kero:absSummit 1447197;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.447772e1;
+   kero:fwdGene "ATAD3A";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1446520;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1447524;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1005;
+   kero:pileup 1.67e2;
+   kero:pvalue 1.7588463e2;
+   kero:qvalue 1.7324475e2;
+   rdfs:label "A549H3K4me3_peak_37" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_38> a so:SO0001697;
+   kero:absSummit 1448184;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.364709e1;
+   kero:fwdGene "ATAD3A";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1447573;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1448685;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1113;
+   kero:pileup 5.7e1;
+   kero:pvalue 6.958448e1;
+   kero:qvalue 6.717829e1;
+   rdfs:label "A549H3K4me3_peak_38" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_39> a so:SO0001697;
+   kero:absSummit 1509774;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.683767e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1508729;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1510086;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1358;
+   kero:pileup 2.42e2;
+   kero:pvalue 3.2642123e2;
+   kero:qvalue 3.2348862e2;
+   kero:revGene "SSU72";
+   rdfs:label "A549H3K4me3_peak_39" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_4> a so:SO0001697;
+   kero:absSummit 839935;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.48683e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 839775;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 840053;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 279;
+   kero:pileup 1.4e1;
+   kero:pvalue 7.51914e0;
+   kero:qvalue 5.39093e0;
+   rdfs:label "A549H3K4me3_peak_4" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_40> a so:SO0001697;
+   kero:absSummit 1510564;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.962032e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1510230;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1511073;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 844;
+   kero:pileup 2.98e2;
+   kero:pvalue 4.0452475e2;
+   kero:qvalue 4.014202e2;
+   kero:revGene "SSU72";
+   rdfs:label "A549H3K4me3_peak_40" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_41> a so:SO0001697;
+   kero:absSummit 1550974;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.792663e1;
+   kero:fwdGene "MIB2";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1550005;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1552139;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 2135;
+   kero:pileup 1.64e2;
+   kero:pvalue 2.1053735e2;
+   kero:qvalue 2.0783025e2;
+   rdfs:label "A549H3K4me3_peak_41" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_42> a so:SO0001697;
+   kero:absSummit 1590383;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.368508e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1590107;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1591518;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1412;
+   kero:pileup 7.0e1;
+   kero:pvalue 5.95591e1;
+   kero:qvalue 5.718097e1;
+   rdfs:label "A549H3K4me3_peak_42" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_43> a so:SO0001697;
+   kero:absSummit 1623843;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.081487e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1623578;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1624530;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 953;
+   kero:pileup 4.8e1;
+   kero:pvalue 5.690959e1;
+   kero:qvalue 5.453968e1;
+   kero:revGene "SLC35E2B";
+   rdfs:label "A549H3K4me3_peak_43" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_44> a so:SO0001697;
+   kero:absSummit 1655648;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.220907e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1654641;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1656611;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1971;
+   kero:pileup 1.5e2;
+   kero:pvalue 2.0395859e2;
+   kero:qvalue 2.0126407e2;
+   kero:revGene "CDK11A",
+     "CDK11B";
+   rdfs:label "A549H3K4me3_peak_44" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_45> a so:SO0001697;
+   kero:absSummit 1677120;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.463801e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1676851;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1677801;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 951;
+   kero:pileup 5.7e1;
+   kero:pvalue 7.131368000000001e1;
+   kero:qvalue 6.890257e1;
+   kero:revGene "SLC35E2";
+   rdfs:label "A549H3K4me3_peak_45" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_46> a so:SO0001697;
+   kero:absSummit 1709399;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 6.711864e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1708614;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1709813;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1200;
+   kero:pileup 2.91e2;
+   kero:pvalue 4.4282761e2;
+   kero:qvalue 4.3962738e2;
+   kero:revGene "NADK";
+   rdfs:label "A549H3K4me3_peak_46" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_47> a so:SO0001697;
+   kero:absSummit 1710469;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 6.37471e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1710057;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1710653;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 597;
+   kero:pileup 2.3e1;
+   kero:pvalue 1.43426e1;
+   kero:qvalue 1.215359e1;
+   kero:revGene "NADK";
+   rdfs:label "A549H3K4me3_peak_47" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_48> a so:SO0001697;
+   kero:absSummit 1821212;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 5.955283e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1820438;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1822233;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1796;
+   kero:pileup 2.26e2;
+   kero:pvalue 3.3710858e2;
+   kero:qvalue 3.3415414e2;
+   kero:revGene "GNB1";
+   rdfs:label "A549H3K4me3_peak_48" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_49> a so:SO0001697;
+   kero:absSummit 1823202;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.073913e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1822552;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1823529;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 978;
+   kero:pileup 5.0e1;
+   kero:pvalue 3.851674e1;
+   kero:qvalue 3.620833e1;
+   kero:revGene "GNB1";
+   rdfs:label "A549H3K4me3_peak_49" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_5> a so:SO0001697;
+   kero:absSummit 840627;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.82703e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 840323;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 840739;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 417;
+   kero:pileup 2.0e1;
+   kero:pvalue 1.006497e1;
+   kero:qvalue 7.9099e0;
+   rdfs:label "A549H3K4me3_peak_5" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_50> a so:SO0001697;
+   kero:absSummit 1840077;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.854556e1;
+   kero:fwdGene "CALML6";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1839800;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1840465;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 666;
+   kero:pileup 6.1e1;
+   kero:pvalue 6.357181e1;
+   kero:qvalue 6.118186e1;
+   rdfs:label "A549H3K4me3_peak_50" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_51> a so:SO0001697;
+   kero:absSummit 1841030;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.565228e1;
+   kero:fwdGene "CALML6";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1840766;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1841384;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 619;
+   kero:pileup 7.7e1;
+   kero:pvalue 6.994252e1;
+   kero:qvalue 6.753532e1;
+   kero:revGene "TMEM52";
+   rdfs:label "A549H3K4me3_peak_51" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_52> a so:SO0001697;
+   kero:absSummit 1981392;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.659917e1;
+   kero:fwdGene "PRKCZ";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1981064;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1981660;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 597;
+   kero:pileup 1.37e2;
+   kero:pvalue 1.5280676e2;
+   kero:qvalue 1.5021172e2;
+   rdfs:label "A549H3K4me3_peak_52" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_53> a so:SO0001697;
+   kero:absSummit 1982386;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.24512e1;
+   kero:fwdGene "PRKCZ";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1982034;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 1982776;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 743;
+   kero:pileup 8.3e1;
+   kero:pvalue 9.090642e1;
+   kero:qvalue 8.844587e1;
+   rdfs:label "A549H3K4me3_peak_53" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_54> a so:SO0001697;
+   kero:absSummit 2121365;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 7.51716e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2121174;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2121625;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 452;
+   kero:pileup 3.8e1;
+   kero:pvalue 2.382178e1;
+   kero:qvalue 2.157645e1;
+   rdfs:label "A549H3K4me3_peak_54" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_55> a so:SO0001697;
+   kero:absSummit 2125538;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.64217e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2125327;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2126068;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 742;
+   kero:pileup 1.8e1;
+   kero:pvalue 9.03904e0;
+   kero:qvalue 6.89462e0;
+   rdfs:label "A549H3K4me3_peak_55" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_56> a so:SO0001697;
+   kero:absSummit 2126554;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 5.50264e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2126306;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2126691;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 386;
+   kero:pileup 2.9e1;
+   kero:pvalue 1.483372e1;
+   kero:qvalue 1.264089e1;
+   rdfs:label "A549H3K4me3_peak_56" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_57> a so:SO0001697;
+   kero:absSummit 2158915;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.594554e1;
+   kero:fwdGene "SKI";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2158241;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2159126;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 886;
+   kero:pileup 6.8e1;
+   kero:pvalue 6.363347e1;
+   kero:qvalue 6.124345e1;
+   rdfs:label "A549H3K4me3_peak_57" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_58> a so:SO0001697;
+   kero:absSummit 2161081;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.608485e1;
+   kero:fwdGene "SKI";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2160346;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2162482;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 2137;
+   kero:pileup 9.8e1;
+   kero:pvalue 8.767628999999999e1;
+   kero:qvalue 8.522347000000001e1;
+   rdfs:label "A549H3K4me3_peak_58" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_59> a so:SO0001697;
+   kero:absSummit 2322507;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.513955e1;
+   kero:fwdGene "RER1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2321915;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2323060;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1146;
+   kero:pileup 2.71e2;
+   kero:pvalue 3.5713892e2;
+   kero:qvalue 3.541424e2;
+   kero:revGene "MORN1";
+   rdfs:label "A549H3K4me3_peak_59" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_6> a so:SO0001697;
+   kero:absSummit 860290;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 8.49845e0;
+   kero:fwdGene "SAMD11";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 860083;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 860713;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 631;
+   kero:pileup 3.0e1;
+   kero:pvalue 2.191846e1;
+   kero:qvalue 1.968319e1;
+   rdfs:label "A549H3K4me3_peak_6" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_60> a so:SO0001697;
+   kero:absSummit 2323887;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.381192e1;
+   kero:fwdGene "RER1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2323492;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2324614;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1123;
+   kero:pileup 2.63e2;
+   kero:pvalue 3.4331686e2;
+   kero:qvalue 3.403497e2;
+   kero:revGene "MORN1";
+   rdfs:label "A549H3K4me3_peak_60" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_61> a so:SO0001697;
+   kero:absSummit 2343570;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 6.091246e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2343054;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2343943;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 890;
+   kero:pileup 2.64e2;
+   kero:pvalue 3.9097833e2;
+   kero:qvalue 3.8790637e2;
+   kero:revGene "PEX10";
+   rdfs:label "A549H3K4me3_peak_61" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_62> a so:SO0001697;
+   kero:absSummit 2344748;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.317546e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2344172;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2345474;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1303;
+   kero:pileup 2.23e2;
+   kero:pvalue 2.9322614e2;
+   kero:qvalue 2.9036026e2;
+   kero:revGene "PEX10";
+   rdfs:label "A549H3K4me3_peak_62" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_63> a so:SO0001697;
+   kero:absSummit 2457387;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 7.216909e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2456654;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2457776;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1123;
+   kero:pileup 2.91e2;
+   kero:pvalue 4.547767e2;
+   kero:qvalue 4.5154407e2;
+   kero:revGene "HES5",
+     "PANK4";
+   rdfs:label "A549H3K4me3_peak_63" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_64> a so:SO0001697;
+   kero:absSummit 2478131;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.804272e1;
+   kero:fwdGene "TNFRSF14";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2477815;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2478923;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1109;
+   kero:pileup 1.21e2;
+   kero:pvalue 1.4037419e2;
+   kero:qvalue 1.378045e2;
+   rdfs:label "A549H3K4me3_peak_64" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_65> a so:SO0001697;
+   kero:absSummit 2517323;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.283737e1;
+   kero:fwdGene "FAM213B";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2516923;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2517904;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 982;
+   kero:pileup 1.94e2;
+   kero:pvalue 1.9559846e2;
+   kero:qvalue 1.9291972e2;
+   rdfs:label "A549H3K4me3_peak_65" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_66> a so:SO0001697;
+   kero:absSummit 2518778;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.700952e1;
+   kero:fwdGene "FAM213B";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2518180;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2519127;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 948;
+   kero:pileup 7.3e1;
+   kero:pvalue 7.009666e1;
+   kero:qvalue 6.76891e1;
+   rdfs:label "A549H3K4me3_peak_66" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_67> a so:SO0001697;
+   kero:absSummit 2574448;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.355402e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2573547;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 2574778;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1232;
+   kero:pileup 1.52e2;
+   kero:pvalue 2.0916034e2;
+   kero:qvalue 2.0645593e2;
+   kero:revGene "MMEL1";
+   rdfs:label "A549H3K4me3_peak_67" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_68> a so:SO0001697;
+   kero:absSummit 3371785;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.005335e1;
+   kero:fwdGene "ARHGEF16";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3371208;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3372043;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 836;
+   kero:pileup 6.8e1;
+   kero:pvalue 4.773956e1;
+   kero:qvalue 4.539878e1;
+   rdfs:label "A549H3K4me3_peak_68" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_69> a so:SO0001697;
+   kero:absSummit 3447343;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 2.768747e1;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3446840;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3447711;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 872;
+   kero:pileup 1.24e2;
+   kero:pvalue 1.4255322e2;
+   kero:qvalue 1.3997885e2;
+   rdfs:label "A549H3K4me3_peak_69" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_7> a so:SO0001697;
+   kero:absSummit 876174;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.0477e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 876010;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 876445;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 436;
+   kero:pileup 2.0e1;
+   kero:pvalue 8.374090000000001e0;
+   kero:qvalue 6.23629e0;
+   rdfs:label "A549H3K4me3_peak_7" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_70> a so:SO0001697;
+   kero:absSummit 3541090;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 4.458442e1;
+   kero:fwdGene "TPRG1L";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3540443;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3541510;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1068;
+   kero:pileup 3.05e2;
+   kero:pvalue 3.9686337e2;
+   kero:qvalue 3.9377722e2;
+   rdfs:label "A549H3K4me3_peak_70" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_71> a so:SO0001697;
+   kero:absSummit 3542150;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 3.896337e1;
+   kero:fwdGene "TPRG1L";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3541625;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3542487;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 863;
+   kero:pileup 1.11e2;
+   kero:pvalue 1.5253925e2;
+   kero:qvalue 1.4994484e2;
+   rdfs:label "A549H3K4me3_peak_71" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_72> a so:SO0001697;
+   kero:absSummit 3566207;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 6.427508e1;
+   kero:fwdGene "TP73";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3565701;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3566708;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1008;
+   kero:pileup 2.44e2;
+   kero:pvalue 3.7175452e2;
+   kero:qvalue 3.6872623e2;
+   kero:revGene "WRAP73";
+   rdfs:label "A549H3K4me3_peak_72" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_73> a so:SO0001697;
+   kero:absSummit 3663577;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 1.740809e1;
+   kero:fwdGene "CCDC27";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3663322;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 3664379;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1058;
+   kero:pileup 4.7e1;
+   kero:pvalue 5.00882e1;
+   kero:qvalue 4.773956e1;
+   rdfs:label "A549H3K4me3_peak_73" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_8> a so:SO0001697;
+   kero:absSummit 877714;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 6.90593e0;
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 877519;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 877844;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 326;
+   kero:pileup 2.5e1;
+   kero:pvalue 1.627609e1;
+   kero:qvalue 1.407377e1;
+   rdfs:label "A549H3K4me3_peak_8" .
+
+<http://dbtss.hgc.jp/rdf/ChIPseq/A549H3K4me3_peak_9> a so:SO0001697;
+   kero:absSummit 894354;
+   kero:binding so:SO0001706;
+   kero:foldEnrichment 8.596543e1;
+   kero:fwdGene "KLHL17",
+     "PLEKHN1";
+   kero:hasRegion [
+     a faldo:Region;
+     faldo:begin [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 893577;
+       faldo:reference "chr1"
+     ];
+     faldo:end [
+       a faldo:ExactPosition,
+         faldo:ForwardStrandPosition;
+       faldo:position 894731;
+       faldo:reference "chr1"
+     ]
+   ];
+   kero:length 1155;
+   kero:pileup 4.45e2;
+   kero:pvalue 7.1402557e2;
+   kero:qvalue 7.095282e2;
+   kero:revGene "NOC2L";
+   rdfs:label "A549H3K4me3_peak_9" .
