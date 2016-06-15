@@ -1,0 +1,278 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix data: <http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh37/Venous_blood/S00622/alternatively_activated_macrophage/Bisulfite-Seq/CNAG/S0062252.hyper_meth.bs_call.20140106.bb#> .
+@prefix resource: <http://rdf.ebi.ac.uk/resource/ensembl/homo_sapiens/hg19/> .
+
+data:S0062252.hyper_meth.bs_call.20140106_1 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_1";
+   faldo:location resource:chr1_10469_10610;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_1";
+   sio:SIO_000300 95 .
+
+resource:chr1_10469 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:10469";
+   faldo:position 10469;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_10469" .
+
+resource:chr1_10469_10610 a faldo:Region;
+   rdfs:label "chromosome chr1:10469-10610";
+   faldo:begin resource:chr1_10469;
+   faldo:end resource:chr1_10610;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_10469-10610" .
+
+resource:chr1_10610 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:10610";
+   faldo:position 10610;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_10610" .
+
+data:S0062252.hyper_meth.bs_call.20140106_2 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_2";
+   faldo:location resource:chr1_17452_17614;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_2";
+   sio:SIO_000300 96 .
+
+resource:chr1_17452 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:17452";
+   faldo:position 17452;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_17452" .
+
+resource:chr1_17452_17614 a faldo:Region;
+   rdfs:label "chromosome chr1:17452-17614";
+   faldo:begin resource:chr1_17452;
+   faldo:end resource:chr1_17614;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_17452-17614" .
+
+resource:chr1_17614 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:17614";
+   faldo:position 17614;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_17614" .
+
+data:S0062252.hyper_meth.bs_call.20140106_3 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_3";
+   faldo:location resource:chr1_61922_61987;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_3";
+   sio:SIO_000300 97 .
+
+resource:chr1_61922 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:61922";
+   faldo:position 61922;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_61922" .
+
+resource:chr1_61922_61987 a faldo:Region;
+   rdfs:label "chromosome chr1:61922-61987";
+   faldo:begin resource:chr1_61922;
+   faldo:end resource:chr1_61987;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_61922-61987" .
+
+resource:chr1_61987 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:61987";
+   faldo:position 61987;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_61987" .
+
+data:S0062252.hyper_meth.bs_call.20140106_4 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_4";
+   faldo:location resource:chr1_136279_136521;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_4";
+   sio:SIO_000300 97 .
+
+resource:chr1_136279 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:136279";
+   faldo:position 136279;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_136279" .
+
+resource:chr1_136279_136521 a faldo:Region;
+   rdfs:label "chromosome chr1:136279-136521";
+   faldo:begin resource:chr1_136279;
+   faldo:end resource:chr1_136521;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_136279-136521" .
+
+resource:chr1_136521 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:136521";
+   faldo:position 136521;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_136521" .
+
+data:S0062252.hyper_meth.bs_call.20140106_5 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_5";
+   faldo:location resource:chr1_533957_534045;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_5";
+   sio:SIO_000300 99 .
+
+resource:chr1_533957 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:533957";
+   faldo:position 533957;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_533957" .
+
+resource:chr1_533957_534045 a faldo:Region;
+   rdfs:label "chromosome chr1:533957-534045";
+   faldo:begin resource:chr1_533957;
+   faldo:end resource:chr1_534045;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_533957-534045" .
+
+resource:chr1_534045 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:534045";
+   faldo:position 534045;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_534045" .
+
+data:S0062252.hyper_meth.bs_call.20140106_6 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_6";
+   faldo:location resource:chr1_662678_662695;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_6";
+   sio:SIO_000300 95 .
+
+resource:chr1_662678 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:662678";
+   faldo:position 662678;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_662678" .
+
+resource:chr1_662678_662695 a faldo:Region;
+   rdfs:label "chromosome chr1:662678-662695";
+   faldo:begin resource:chr1_662678;
+   faldo:end resource:chr1_662695;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_662678-662695" .
+
+resource:chr1_662695 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:662695";
+   faldo:position 662695;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_662695" .
+
+data:S0062252.hyper_meth.bs_call.20140106_7 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_7";
+   faldo:location resource:chr1_705870_705908;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_7";
+   sio:SIO_000300 98 .
+
+resource:chr1_705870 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:705870";
+   faldo:position 705870;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_705870" .
+
+resource:chr1_705870_705908 a faldo:Region;
+   rdfs:label "chromosome chr1:705870-705908";
+   faldo:begin resource:chr1_705870;
+   faldo:end resource:chr1_705908;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_705870-705908" .
+
+resource:chr1_705908 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:705908";
+   faldo:position 705908;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_705908" .
+
+data:S0062252.hyper_meth.bs_call.20140106_8 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_8";
+   faldo:location resource:chr1_710218_710631;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_8";
+   sio:SIO_000300 97 .
+
+resource:chr1_710218 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:710218";
+   faldo:position 710218;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_710218" .
+
+resource:chr1_710218_710631 a faldo:Region;
+   rdfs:label "chromosome chr1:710218-710631";
+   faldo:begin resource:chr1_710218;
+   faldo:end resource:chr1_710631;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_710218-710631" .
+
+resource:chr1_710631 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:710631";
+   faldo:position 710631;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_710631" .
+
+data:S0062252.hyper_meth.bs_call.20140106_9 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_9";
+   faldo:location resource:chr1_712432_713513;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_9";
+   sio:SIO_000300 95 .
+
+resource:chr1_712432 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:712432";
+   faldo:position 712432;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_712432" .
+
+resource:chr1_712432_713513 a faldo:Region;
+   rdfs:label "chromosome chr1:712432-713513";
+   faldo:begin resource:chr1_712432;
+   faldo:end resource:chr1_713513;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_712432-713513" .
+
+resource:chr1_713513 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:713513";
+   faldo:position 713513;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_713513" .
+
+data:S0062252.hyper_meth.bs_call.20140106_10 a obo:SO_0001720;
+   rdfs:label "S0062252.hyper_meth.bs_call.20140106_10";
+   faldo:location resource:chr1_715277_715284;
+   dct:identifier "S0062252.hyper_meth.bs_call.20140106_10";
+   sio:SIO_000300 100 .
+
+resource:chr1_715277 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:715277";
+   faldo:position 715277;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_715277" .
+
+resource:chr1_715277_715284 a faldo:Region;
+   rdfs:label "chromosome chr1:715277-715284";
+   faldo:begin resource:chr1_715277;
+   faldo:end resource:chr1_715284;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_715277-715284" .
+
+resource:chr1_715284 a faldo:StrandedPosition,
+     faldo:ExactPosition;
+   rdfs:label "chromosome chr1:715284";
+   faldo:position 715284;
+   faldo:reference resource:chr1;
+   dct:identifier "chr1_715284" .
